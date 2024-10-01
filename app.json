@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hbuzz_trigger",
+    "name": "HBuzz Trigger",
     "slug": "hbuzz_trigger",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +18,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.osmzrl.hbuzz_trigger",
+      "usesCleartextTraffic": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13675574-36a6-4d5c-9370-890ad20198df"
+      }
+    },
+    "plugins": [[
+      "expo-build-properties", { "android": { "usesCleartextTraffic": true } }
+    ]
+    ]
   }
 }
