@@ -26,7 +26,7 @@
   </li>
   <li>
     <strong>IOT system:</strong>
-    <p>the IOT system consists of an esp32 linked to a buzzer component, the esp32 act as a server with static ip (192.168.1.100) on local network that receives POST requests from the app on it's end point /trigger, the esp32 then reponds with a status code of 200 signaling the success and initiating a repeated beeping sound for 20s.</p>
+    <p>the IOT system consists of an esp32 linked to a buzzer(pin 12) component, the esp32 act as a server with static ip (192.168.1.100) on local network that receives POST requests from the app on it's end point /trigger, the esp32 then reponds with a status code of 200 signaling the success and initiating a repeated beeping sound for 20s.</p>
     <br>
     <img width="200" src="https://github.com/user-attachments/assets/3b530359-cefd-485e-a0ea-b15d05cbcf88">
   </li>
