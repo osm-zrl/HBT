@@ -2,8 +2,8 @@
 #include <WebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "ADSL_inwi_2.4G_4FD7";
-const char* password = "3C3332F04FD7";
+const char* ssid = "Your WIFI";
+const char* password = "Your WIFI code";
 
 // Set up a static IP address
 IPAddress local_ip(192, 168, 1, 100);  // Change to your desired static IP
@@ -11,7 +11,7 @@ IPAddress gateway(192, 168, 1, 1);     // Change to your network's gateway
 IPAddress subnet(255, 255, 255, 0);    // Change to your network's subnet
 
 // Buzzer pin
-const int buzzerPin = 12; // Change to the GPIO pin you connected the buzzer to
+const int buzzerPin = 12;
 
 WebServer server(80); // Create a web server on port 80
 
